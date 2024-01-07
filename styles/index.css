@@ -4,6 +4,16 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.btn-primary {
+    border-radius: 8px;
+    border: 0px;
+    background: rgb(226, 52, 52);
+    padding: 16px 32px;
+    color: white;
+    font-size: 20px;
+    font-weight: 30px;
+}
+
 /* banner styles start */
 .banner-section {
     background-image: url('/resources/Banner\ Image.png');
@@ -53,14 +63,123 @@ body {
     font-size: 40px;
     margin-top: 10px;
 }
-.offer-pic{
-text-align: center;
-margin-top: 40px;
-margin-bottom: 100px;
+
+.offer-pic {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+/* midnight party styles */
+
+.midnight-party-section {
+    background-image: url('/resources/Vectorrr.png');
+    width: 1300px;
+    height: 600px;
+    margin: 50px 140px;
+
+}
+
+.midnight-party-title {
+    color: #FFF;
+    font-size: 50px;
+    padding: 125px 750px 0px 125px;
+    margin-bottom: 0px;
+}
+
+.midnight-party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 500px 30px 125px;
+}
+
+.midnight-party-section button {
+    margin-left: 160px;
 }
 
 /* party information styles  */
 
-.party-info-section{
-    
+.party-info-section {
+    background-color: rgba(248, 183, 183, 0.1);
+    width: 1300px;
+    height: 400px;
+    margin: 50px 120px;
+    border-radius: 10px;
+
+}
+
+.party-info {
+    color: #070211;
+    font-size: 20px;
+    text-align: center;
+    padding: 100px 200px;
+
+}
+
+.party-info span {
+    color: #F00;
+}
+
+/* coming soon offer section styles */
+.coming-soon-offer {
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    height: 400px;
+    margin: 50px 120px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.offer-info{
+    width: 100%;
+}
+
+.offer-title {
+    color: #F00;
+    font-size: 15px;
+    padding-top: 100px;
+
+}
+
+.offer-state {
+    color: #070211;
+    font-size: 30px;
+
+}
+
+.new-offer-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+}
+
+.offer-img {
+    /* width: 100%; */
+    /* margin: 100px 100px; */
+   text-align: center;
+   width: 463px;
+height: 463px;
+flex-shrink: 0;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+.offer-img img{
+        margin-top: 50px;
+
+}
+
+.offer-info {
+    width: 100%;
+}
+
+.offer-time {
+    padding-top: 60px;
+    width: 100%;
+
+}
+
+.offer-year {
+    color: #F00;
+    font-size: 40px;
 }
