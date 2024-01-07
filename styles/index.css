@@ -73,6 +73,7 @@ body {
 /* midnight party styles */
 
 .midnight-party-section {
+    display: flex;
     background-image: url('/resources/Vectorrr.png');
     width: 1300px;
     height: 600px;
@@ -83,15 +84,19 @@ body {
 .midnight-party-title {
     color: #FFF;
     font-size: 50px;
-    padding: 125px 750px 0px 125px;
+    padding: 125px 200px 0px 125px;
     margin-bottom: 0px;
+}
+.new-year-pic{
+    padding-right: 150px;
+    margin-top: 80px;
 }
 
 .midnight-party-description {
     color: rgba(255, 255, 255, 0.80);
     font-size: 18px;
     font-weight: 400;
-    padding: 0px 500px 30px 125px;
+    padding: 0px 200px 30px 125px;
 }
 
 .midnight-party-section button {
@@ -126,13 +131,13 @@ body {
     display: flex;
     justify-content: space-between;
     width: 1300px;
-    height: 400px;
+    height: 500px;
     margin: 50px 120px;
     border-radius: 10px;
     gap: 20px;
 }
 
-.offer-info{
+.offer-info {
     width: 100%;
 }
 
@@ -155,17 +160,16 @@ body {
 }
 
 .offer-img {
-    /* width: 100%; */
-    /* margin: 100px 100px; */
-   text-align: center;
-   width: 463px;
-height: 463px;
-flex-shrink: 0;
+    text-align: center;
+    width: 463px;
+    height: 463px;
+    flex-shrink: 0;
     border-radius: 463px;
     border: 15px solid #F00;
 }
-.offer-img img{
-        margin-top: 50px;
+
+.offer-img img {
+    margin-top: 50px;
 
 }
 
@@ -182,4 +186,56 @@ flex-shrink: 0;
 .offer-year {
     color: #F00;
     font-size: 40px;
+}
+
+/* holidaysell section styles */
+.holiday-sell-section {
+    background-image: url('/resources/Rectangle\ 2.png'), url('/resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: bottom, right;
+    width: 1300px;
+    height: 900px;
+    margin: 50px 140px;
+}
+
+.holiday-sell-info {
+    text-align: center;
+}
+
+.function-title {
+    color: #070211;
+    font-size: 15px;
+    margin-bottom:0px;
+}
+
+.holiday-sell {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: black;
+    font-size: 50px;
+
+}
+
+.holiday-sell span {
+    color: #F00;
+}
+
+.holiday-sell-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 125px;
+
+}
+.holiday-sell-img{
+    display: flex;
+}
+.holiday-exciting-img{
+    width: 100%;
+    margin-top: 100px;
+    color: red;
+}
+.holiday-prize-img{
+    width: 55%;
+    /* margin-top: 150px; */
 }
