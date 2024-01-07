@@ -1,0 +1,66 @@
+/* common styles */
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* banner styles start */
+.banner-section {
+    background-image: url('/resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 600px;
+    margin: 50px 140px;
+}
+
+.year-celebrate {
+    color: rgb(233, 224, 173);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+}
+
+.year-party-title {
+    color: rgb(212, 236, 122);
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0px 340px;
+}
+
+/* 65% offer section styles */
+
+.offer {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.offer-description {
+    color: #F00;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.categories-title {
+    color: #070211;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.offer-pic{
+text-align: center;
+margin-top: 40px;
+margin-bottom: 100px;
+}
+
+/* party information styles  */
+
+.party-info-section{
+    
+}
