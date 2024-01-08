@@ -50,7 +50,7 @@ body {
 
 /* 65% offer section styles */
 
-.offer-section{
+.offer-section {
     margin-top: 0px;
     padding-top: 0px;
 }
@@ -89,8 +89,8 @@ body {
 
 .midnight-party-section {
     display: flex;
-    background:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 60%), 
-               url('/resources/Vectorrr.png') no-repeat;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 60%),
+        url('/resources/Vectorrr.png') no-repeat;
     background-size: 100%;
     background-repeat: no-repeat;
     height: 580px;
@@ -127,7 +127,7 @@ body {
 .party-info-section {
     background-color: rgba(248, 183, 183, 0.1);
     height: 400px;
-    margin: 0px 120px;
+    margin: 0px 50px;
     border-radius: 10px;
     margin-top: 0px;
 
@@ -147,7 +147,7 @@ body {
 }
 
 /* coming soon offer section styles */
-.coming-soon-offer{
+.coming-soon-offer {
     display: flex;
     justify-content: space-between;
     height: 500px;
@@ -211,10 +211,10 @@ body {
 .holiday-sell-section {
     height: 860px;
     background-image: url('/resources/Rectangle\ 2.png'),
-    url('/resources/Rectangle\ 1.png');
+        url('/resources/Rectangle\ 1.png');
     background-repeat: no-repeat;
     background-position: bottom, right;
-    /* background-size: 100%, 50%; */    
+    /* background-size: 100%, 50%; */
     margin: 200px 50px 0px 50px;
 }
 
@@ -268,19 +268,20 @@ body {
     margin: 50px 50px 0px 50px;
 
 }
-.awesome-item-images{
+
+.awesome-item-images {
     display: flex;
 }
 
 .portfolio-images img {
     width: 95%;
     margin: 7px 0px;
-    
+
 }
 
 .portfolio-images img:hover {
     animation: big-normal 2s ease-out infinite;
-} 
+}
 
 @keyframes big-normal {
     0% {
@@ -294,7 +295,7 @@ body {
     100% {
         transform: scale(1);
     }
-} 
+}
 
 .gift-title {
     color: #F00;
@@ -314,13 +315,98 @@ body {
     font-size: 19px;
     width: 70%;
     margin-top: 5px;
-} 
+}
 
 /* subscribe section styles */
 
-.subscribe-section{
+.subscribe-section {
     background-color: rgba(212, 110, 110, 0.1);
-    height: 600px;
-    margin: 80px 140px 0px 140px;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin: 50px 50px 0px 50px;
+    border-radius: 10px;
 }
+
+.subscribe-title {
+    color: #070211;
+    text-align: center;
+    font-size: 40px;
+}
+
+.subscribe-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    margin: 5px 100px;
+}
+.message-icon{
+    padding-top: 40px;
+    text-align: center;
+}
+
+    .subscribe-field {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 30px;
+        
+    }
+
+    #subscribe-btn {
+        border-radius: 0px 50px 50px 0px;
+        padding: 20px 60px 20px 60px;
+        background: #F00;
+        color: white;
+        border: 0px;
+    }
+
+    #email-field {
+        border-radius: 50px 0px 0px 50px;
+        padding: 20px 150px 20px 30px;
+        border: 0px;
+    }
+
+    /* footer section styles */
+
+    .contact-section{
+        height: 400px;
+        margin-top: 70px;
+        background-color: black;
+        color: #FFF;
+        font-size: 20px;
+        /* border-radius: 5px; */
+    }
+    .contact{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 120px;
+    }
+    .social-media{
+        color: #F00;
+        text-align: center;
+
+    }
+    .social-media img{
+        margin-top: 0px;
+        margin-right: 20px;
+        width: 4%;
+    }
+    .copyright-info{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 120px;
+    }
+    .copyright-info button{
+        border-radius: 5px;
+        padding: 3px 40px;
+    }
     
+    .web-link{
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        /* background-color: red; */
+    }
