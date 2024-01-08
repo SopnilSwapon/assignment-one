@@ -19,10 +19,10 @@ body {
 /* banner styles start */
 
 .banner-section {
-    /* background-image: url('/resources/Banner\ Image.png'); */
     background-repeat: no-repeat;
     background: linear-gradient(180deg, #070211 0%,
-            rgba(7, 2, 17, 0.00) 80%), url('../resources/Banner\ Image.png') no-repeat;
+            rgba(7, 2, 17, 0.00) 80%), url('../resources/Banner\ Image.png')
+             no-repeat;
     margin: 50px 50px 0px 50px;
     background-size: 100%;
     height: 600px;
@@ -91,7 +91,6 @@ body {
 
 .midnight-party-section {
     display: flex;
-    /* background-image: url('/resources/Vectorrr.png'); */
     background-repeat: no-repeat;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 60%),
         url('../resources/Vectorrr.png') no-repeat;
@@ -145,12 +144,12 @@ body {
     padding: 10px 200px;
 
 }
-
 .party-info span {
     color: #F00;
 }
 
 /* coming soon offer section styles */
+
 .coming-soon-offer {
     display: flex;
     justify-content: space-between;
@@ -159,7 +158,6 @@ body {
     border-radius: 10px;
     gap: 20px;
 }
-
 .offer-info {
     width: 100%;
 }
@@ -168,7 +166,6 @@ body {
     color: #F00;
     font-size: 20px;
     padding-top: 100px;
-
 }
 
 .offer-state {
@@ -176,12 +173,10 @@ body {
     font-size: 30px;
 
 }
-
 .new-offer-description {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
 }
-
 .offer-img {
     text-align: center;
     width: 463px;
@@ -190,12 +185,9 @@ body {
     border-radius: 463px;
     border: 15px solid #F00;
 }
-
 .offer-img img {
     margin-top: 50px;
-
 }
-
 .offer-info {
     width: 100%;
 }
@@ -203,23 +195,18 @@ body {
 .offer-time {
     padding-top: 80px;
     width: 100%;
-
 }
-
 .offer-year {
     color: #F00;
     font-size: 40px;
 }
 
 /* holiday sell section styles */
+
 .holiday-sell-section {
     height: 860px;
     background-image: url('../resources/Rectangle\ 2.png'),
         url('../resources/Rectangle\ 1.png');
-        /* background-image: url('/resources/Rectangle\ 2.png'), url('/resources/Rectangle\ 1.png');
-    background-repeat: no-repeat;
-   
-    /* background-size: 100%, 50%; */
     background-position: bottom, right;
     background-repeat: no-repeat;
     margin: 200px 50px 0px 50px;
@@ -272,7 +259,6 @@ body {
 /* awesome portfolio section styles */
 
 .portfolio-section {
-    /* margin: 50px 140px; */
     margin: 50px 50px 0px 50px;
 
 }
@@ -286,7 +272,6 @@ body {
     margin: 7px 0px;
 
 }
-
 .portfolio-images img:hover {
     animation: big-normal 2s ease-out infinite;
 }
@@ -348,73 +333,80 @@ body {
     font-size: 20px;
     margin: 5px 100px;
 }
-.message-icon{
+
+.message-icon {
     padding-top: 40px;
     text-align: center;
 }
 
-    .subscribe-field {
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        margin-top: 30px;
-        
-    }
+.subscribe-field {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
 
-    #subscribe-btn {
-        border-radius: 0px 50px 50px 0px;
-        padding: 20px 60px 20px 60px;
-        background: #F00;
-        color: white;
-        border: 0px;
-    }
+#subscribe-btn {
+    border-radius: 0px 50px 50px 0px;
+    padding: 20px 60px 20px 60px;
+    background: #F00;
+    color: white;
+    border: 0px;
+}
 
-    #email-field {
-        border-radius: 50px 0px 0px 50px;
-        padding: 20px 150px 20px 30px;
-        border: 0px;
-    }
+#email-field {
+    border-radius: 50px 0px 0px 50px;
+    padding: 20px 150px 20px 30px;
+    border: 0px;
+}
 
-    /* footer section styles */
+/* footer section styles */
 
-    .contact-section{
-        height: 400px;
-        margin-top: 70px;
-        background-color: black;
-        color: #FFF;
-        font-size: 20px;
-        /* border-radius: 5px; */
-    }
-    .contact{
-        display: flex;
-        justify-content: space-between;
-        padding: 50px 120px;
-    }
-    .social-media{
-        color: #F00;
-        text-align: center;
+.contact-section {
+    height: 500px;
+    margin-top: 70px;
+    background-color: black;
+    color: #FFF;
+    font-size: 20px;
+}
 
-    }
-    .social-media img{
-        margin-top: 0px;
-        margin-right: 20px;
-        width: 4%;
-    }
-    .copyright-info{
-        display: flex;
-        justify-content: space-between;
-        padding: 0px 120px;
-    }
-    .copyright-info button{
-        border-radius: 5px;
-        height: 40px;
-    }
-    
-    .web-link{
-        display: flex;
-        gap: 8px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        /* background-color: red; */
-    }
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px;
+}
+
+.social-media {
+    color: #F00;
+    text-align: center;
+}
+
+.social-media img {
+    margin-top: 0px;
+    margin-right: 20px;
+    width: 4%;
+}
+
+.copyright-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+}
+
+.copyright-info button {
+    border-radius: 5px;
+    height: 40px;
+}
+
+.web-link {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-section hr {
+    height: 1px;
+    margin: 0px 140px;
+}
