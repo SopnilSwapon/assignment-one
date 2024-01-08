@@ -316,7 +316,7 @@ body {
     background-color: rgba(212, 110, 110, 0.1);
     align-items: center;
     justify-content: center;
-    height: 500px;
+    height: 600px;
     margin: 50px 50px 0px 50px;
     border-radius: 10px;
 }
@@ -363,7 +363,7 @@ body {
 /* footer section styles */
 
 .contact-section {
-    height: 500px;
+    height: 450px;
     margin-top: 70px;
     background-color: black;
     color: #FFF;
